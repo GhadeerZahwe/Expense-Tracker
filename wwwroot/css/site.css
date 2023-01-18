@@ -20,7 +20,7 @@ body {
 }
     
 .e-bigger {
-    font-size: x-large;
+    font-size: large;
 }
 
 /*Radio button Group*/
@@ -43,4 +43,10 @@ body {
     background-color: #fff;
     color: #212b36;
     border: 1px solid #fff;
+}
+
+/*Widget*/
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
 }
