@@ -23,6 +23,13 @@ body {
     font-size: large;
 }
 
+/*Grid*/
+.e-grid{
+    border:0;
+    border-radius:5px;
+}
+
+
 /*Radio button Group*/
 .e-btn-group.custom-rbt-group{
     width:100%;
