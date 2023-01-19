@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<Expense_Tracker.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActionText"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
 }
 
 
@@ -31,7 +33,6 @@
         <span class="badge bg-danger">${Type}</span>
     ${/if}
 </script>
-
 
 <script id="actionColumnTemplate" type="text/x-template">
     <div class="d-flex flex-row justify-content-start">
